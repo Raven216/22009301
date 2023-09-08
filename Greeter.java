@@ -15,6 +15,7 @@ public class Greeter {
   public String sayHello() {
     ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
     return messages.getString("greeting") + ", " + name;
+    //fixed
   }
 
   public static void main(String[] args) {
